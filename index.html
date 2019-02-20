@@ -18,21 +18,20 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!--<script src="Scripts/jquery-3.3.1.min.js"></script>-->
-    <!--<script src="Scripts/bootstrap.min.js"></script>-->
+    <script src="Scripts/bootstrap.min.js"></script>
     <style>
         body {
             font: 400 15px/1.8 Lato, sans-serif;
             /*color: #333;*/
-           
         }
 
         .container {
         }
 
         section {
-           
             background-size: cover;
             background-repeat: no-repeat;
             background-image: url('images/section620.jpg');
@@ -48,149 +47,151 @@
 
         @media(max-width:1980px) {
             section {
-                height:880px;
+                height: 880px;
             }
-              }
+        }
 
         @media(max-width:980px) {
-                section {
-                    height: 450px;
-                }
+            section {
+                height: 450px;
             }
+        }
+
         @media (max-width: 600px) {
-                    .carousel-caption {
-                        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-                    }
+            .carousel-caption {
+                display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+            }
+
             section {
                 height: 800px;
             }
-                }
+        }
 
         .bg-1 {
             background-image: url('images/spot1.png');
-            background-repeat:round;
+            background-repeat: round;
             /*background: #f1f1f1;*/
             color: #bdbdbd;
         }
 
 
 
-                .list-group-item:first-child {
-                    border-top-right-radius: 0;
-                    border-top-left-radius: 0;
-                }
+        .list-group-item:first-child {
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+        }
 
-                .list-group-item:last-child {
-                    border-bottom-right-radius: 0;
-                    border-bottom-left-radius: 0;
-                }
+        .list-group-item:last-child {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
 
-                <!-- .thumbnail {
-                    padding: 0 0 15px 0;
-                    border: none;
-                    border-radius: 0;
-                }
+        <!-- .thumbnail {
+            padding: 0 0 15px 0;
+            border: none;
+            border-radius: 0;
+        }
 
-                    .thumbnail p {
-                        margin-top: 15px;
-                        color: #555;
-                    }
-                -->
+            .thumbnail p {
+                margin-top: 15px;
+                color: #555;
+            }
+        -->
 
-                .btn {
-                    padding: 10px 20px;
-                    background-color: #333;
-                    color: #f1f1f1;
-                    border-radius: 0;
-                    transition: .2s;
-                }
+        .btn {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #f1f1f1;
+            border-radius: 0;
+            transition: .2s;
+        }
 
-                    .btn:hover, .btn:focus {
-                        border: 1px solid #333;
-                        background-color: #fff;
-                        color: #000;
-                    }
+            .btn:hover, .btn:focus {
+                border: 1px solid #333;
+                background-color: #fff;
+                color: #000;
+            }
 
-                .modal-header, h4, .close {
-                    background-color: #333;
-                    color: #fff !important;
-                    text-align: center;
-                    font-size: 30px;
-                }
+        .modal-header, h4, .close {
+            background-color: #333;
+            color: #fff !important;
+            text-align: center;
+            font-size: 30px;
+        }
 
-                .modal-header, .modal-body {
-                    padding: 40px 50px;
-                }
+        .modal-header, .modal-body {
+            padding: 40px 50px;
+        }
 
-                .nav-tabs li a {
+        .nav-tabs li a {
+            color: #777;
+        }
+
+
+
+
+        .navbar {
+            font-family: Montserrat, sans-serif;
+            margin-bottom: 0;
+            background-color: #2d2d30;
+            border: 0;
+            font-size: 11px !important;
+            letter-spacing: 4px;
+            opacity: 0.7;
+        }
+
+            .navbar li a, .navbar .navbar-brand {
+                color: #d5d5d5 !important;
+            }
+
+        .navbar-nav li a:hover {
+            color: #fff !important;
+        }
+
+        .navbar-nav li.active a {
+            color: #fff !important;
+            background-color: #29292c !important;
+        }
+
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+        }
+
+        .open .dropdown-toggle {
+            color: #fff;
+            background-color: #555 !important;
+        }
+
+        .dropdown-menu li a {
+            color: #000 !important;
+        }
+
+            .dropdown-menu li a:hover {
+                background-color: red !important;
+            }
+
+        footer {
+            background-color: #2d2d30;
+            color: #f5f5f5;
+            padding: 32px;
+        }
+
+            footer a {
+                color: #f5f5f5;
+            }
+
+                footer a:hover {
                     color: #777;
+                    text-decoration: none;
                 }
 
+        .form-control {
+            border-radius: 0;
+        }
 
-
-
-                .navbar {
-                    font-family: Montserrat, sans-serif;
-                    margin-bottom: 0;
-                    background-color: #2d2d30;
-                    border: 0;
-                    font-size: 11px !important;
-                    letter-spacing: 4px;
-                    opacity: 0.7;
-                }
-
-                    .navbar li a, .navbar .navbar-brand {
-                        color: #d5d5d5 !important;
-                    }
-
-                .navbar-nav li a:hover {
-                    color: #fff !important;
-                }
-
-                .navbar-nav li.active a {
-                    color: #fff !important;
-                    background-color: #29292c !important;
-                }
-
-                .navbar-default .navbar-toggle {
-                    border-color: transparent;
-                }
-
-                .open .dropdown-toggle {
-                    color: #fff;
-                    background-color: #555 !important;
-                }
-
-                .dropdown-menu li a {
-                    color: #000 !important;
-                }
-
-                    .dropdown-menu li a:hover {
-                        background-color: red !important;
-                    }
-
-                footer {
-                    background-color: #2d2d30;
-                    color: #f5f5f5;
-                    padding: 32px;
-                }
-
-                    footer a {
-                        color: #f5f5f5;
-                    }
-
-                        footer a:hover {
-                            color: #777;
-                            text-decoration: none;
-                        }
-
-                .form-control {
-                    border-radius: 0;
-                }
-
-                textarea {
-                    resize: none;
-                }
+        textarea {
+            resize: none;
+        }
     </style>
 </head>
 <body id="myPage" data-spy="scroll" style="background-color:rgba(0, 0, 0, 0.84) " data-target=".navbar" data-offset="50">
@@ -266,7 +267,7 @@
             <p style="color:white"><em>公司願景</em></p>
             <p style="color:white;font-weight:900;font-size:16pt;font-family:微軟正黑體">隨著各項包裝技術的日新月異，峰群國際包裝科技有限公司在全體員工努力之下也不斷地追求革新及精進本身技術升級，更在製作產品上針對環境及環保概念運用不斷配合政策提升品質,達成食品安全包裝及環保標準,將配合政府生產力4.0方向提升公司產能,效能,創造揚名於國際首屈一指的包裝指標；同時結合各種不同領域的產業升級取得資訊上,服務上迅速，共同發展出最大的效益，也發揮「取之社會、用之社會」的精神回饋給需要的人們。並在環保議題上盡一份心力，達到永續發展的目標。</p>
             <br>
-            <div class="row "style="margin-top:50px">
+            <div class="row " style="margin-top:50px">
                 <div class="col-sm-3 hidden-xs">
                     <!--<p class="text-center"><strong>印刷機監控</strong></p><br>-->
                     <a href="#demo" data-toggle="collapse">
@@ -307,416 +308,487 @@
         </div>
 
     </section>
-        <!--<!-- Container (Product Section) -->
+    <!--<!-- Container (Product Section) -->
 
-        <div id="product" class=" bg-1">
-            <br /> <br /><br />
-            <div style="align-content:center">
-                <h1 style="padding-top:10px;color:#8768f4;text-align:center;font-weight:900;font-size:26pt;font-family:微軟正黑體">產品新資訊NEWS</h1>
-                <div class="iw_wrapper" style="height:inherit;width:inherit">
-                    <ul class="iw_thumbs" id="iw_thumbs">
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb1" /><div><h2>食品袋1</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb2" /><div><h2>食品袋2</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb3" /><div><h2>食品袋3</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb8" /><div><h2>食品袋4</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb9" /><div><h2>食品袋5</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb10" /><div><h2>食品袋6</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb6" /><div><h2>食品袋7</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb7" /><div><h2>食品袋8</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb8" /><div><h2>食品袋9</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb12" /><div><h2>食品袋10</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb4" /><div><h2>食品袋11</h2><p>產品規格介紹</p></div></li>
-                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb5" /><div><h2>食品袋12</h2><p>產品規格介紹</p></div></li>
-                    </ul>
-                </div>
-                <div id="iw_ribbon" class="iw_ribbon">
-                    <span class="iw_close">滾輪關閉</span>
-                    <span class="iw_zoom">點擊圖片放大</span>
-                </div>
+    <div id="product" class=" bg-1">
+        <br /> <br /><br />
+        <div style="align-content:center">
+            <h1 style="padding-top:10px;color:#8768f4;text-align:center;font-weight:900;font-size:26pt;font-family:微軟正黑體">產品新資訊NEWS</h1>
+            <div class="iw_wrapper" style="height:inherit;width:inherit">
+                <ul class="iw_thumbs" id="iw_thumbs">
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb1" /><div><h2>食品袋1</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb2" /><div><h2>食品袋2</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb3" /><div><h2>食品袋3</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb8" /><div><h2>食品袋4</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb9" /><div><h2>食品袋5</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb10" /><div><h2>食品袋6</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb6" /><div><h2>食品袋7</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb7" /><div><h2>食品袋8</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb8" /><div><h2>食品袋9</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb12" /><div><h2>食品袋10</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb4" /><div><h2>食品袋11</h2><p>產品規格介紹</p></div></li>
+                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb5" /><div><h2>食品袋12</h2><p>產品規格介紹</p></div></li>
+                </ul>
+            </div>
+            <div id="iw_ribbon" class="iw_ribbon">
+                <span class="iw_close">  滾輪關閉</span>
+                <span class="iw_zoom">點擊圖片放大</span>
             </div>
         </div>
-    
-        <!--<div class="rm_wrapper" style="max-width:100%;align-content:center;image-rendering:optimizeQuality;height:480px">
+    </div>
+
+    <!--<div class="rm_wrapper" style="max-width:100%;align-content:center;image-rendering:optimizeQuality;height:480px">
             <img src="images/net.gif" alt="" width="100%" height="450">
 
         </div>
     </div>-->
-       
-            <!-- Container (Contact Section) -->
-            <div id="contact" class="container">
-                <br />
-                <h3 style="color:white" class="text-center">聯絡我們</h3>
-                <p style="color:white" class="text-center"><em>Welcome To Our Website!</em></p>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+        <br />
+        <h3 style="color:white" class="text-center">聯絡我們</h3>
+        <p style="color:white" class="text-center"><em>Welcome To Our Website!</em></p>
 
-                <div class="row">
-                    <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-4">
 
-                        <p style="color:white"><span class="glyphicon glyphicon-map-marker white"></span>台灣屏東市豐田街13巷3號</p>
-                        <p style="color:white"><span class="glyphicon glyphicon-phone white"></span> Phone:08-7216861 Fax:08-7212909</p><!--<style="background-color:white">-->
-                        <p style="color:white"><span class="glyphicon glyphicon-envelope white"></span>Email: Fengchiun888@mail.com</p>
+                <p style="color:white"><span class="glyphicon glyphicon-map-marker white"></span>台灣屏東市豐田街13巷3號</p>
+                <p style="color:white"><span class="glyphicon glyphicon-phone white"></span> Phone:08-7216861 Fax:08-7212909</p><!--<style="background-color:white">-->
+                <p style="color:white"><span class="glyphicon glyphicon-envelope white"></span>Email: Feng.chiun888@gmail.com</p>
+            </div>
+            <div class="col-md-8" onload="init()">
+
+                <!--<a href="mailto:Feng.chiun888@gmail.com?subject=test&cc=sample@hotmail.com&body=use mailto sample" style="font-size:14pt;font-weight:600;color:white">按我發送郵件聯絡我們</a>-->
+                <form name='sendmail' action='mailto:Feng.chiun888@gmail.com'>
+
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="ccText" name="cc" value='happy4001130@gmail.com' placeholder="副本發送網址" readonly type="email">
                     </div>
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-sm-6 form-group">
-                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                            </div>
-                            <div class="col-sm-6 form-group">
-                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                            </div>
-                        </div>
-                        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-12 form-group">
-                                <button class="btn pull-right btn-default" type="submit">Send</button>
-                            </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="subText" name="subject" value='' placeholder="主旨" type="text">
+                    </div>
+                    <input class="form-control" id="bodyText" name="body" value='' placeholder="請留下連絡電話及相關內容" type="text" cols=100 rows=10 required>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+
+                            <button class="btn pull-right btn-default" onclick="submitHandler();" name="btSend" type="submit">發送</button>
+                            <a href="mailto:" id="mailTo"></a>
+                            <!--<a href="mailto:Feng.chiun888@gmail.com?subject=test&cc=sample@hotmail.com&body=use mailto sample" id="mailTo"></a>-->
                         </div>
                     </div>
+                </form>
+            </div>
+            <!--<form name='sendmail' action='Feng.chiun888@gmail.com'>
+                <input name='cc' type='text' placeholder="發送副本網址">
+                <input name='subject' type='text' placeholder="主旨" value="主旨">
+                <input name='body' type='text' placeholder="請輸入連絡電話及相關內容" value="內容" rows="5">
+            </form>-->
+
+        </div>
+    </div>
+    <!--<div class="col-md-8">
+        <div class="row">
+            <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+        <br>
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <button class="btn pull-right btn-default" type="submit">Send</button>
+            </div>
+         </div>
+    </div>
                 </div>
             </div>
             <br>
 
             <!-- Footer -->
-            <footer class="text-center">
-                <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-                    <span class="glyphicon glyphicon-chevron-up"></span>
-                </a><br><br>
-                <p>Design Theme Made By  Megan.Fengchiun Packing & Technology </p>
-            </footer>
+    <footer class="text-center">
+        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <p>Design Theme Made By  Megan.Fengchiun Packing & Technology </p>
+    </footer>
 
-            <script type="text/javascript" src="Scripts/jquery.transform-0.9.3.min_.js"></script>
-            <script type="text/javascript" src="Scripts/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.transform-0.9.3.min_.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.mousewheel.js"></script>
 
-            <script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
-            <script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
-            <script type="text/javascript">
+    <script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript">
 
-                $(document).ready(function () {
-                    // Initialize Tooltip
-                    //$('[data-toggle="tooltip"]').tooltip();
+        $(document).ready(function () {
+            // Initialize Tooltip
+            $('[data-toggle="tooltip"]').tooltip();
 
-                    // Add smooth scrolling to all links in navbar + footer link
-                    $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
 
-                        // Make sure this.hash has a value before overriding default behavior
-                        if (this.hash !== "") {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
 
-                            // Prevent default anchor click behavior
-                            event.preventDefault();
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-                            // Store hash
-                            var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-                            // Using jQuery's animate() method to add smooth page scroll
-                            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                            $('html, body').animate({
-                                scrollTop: $(hash).offset().top
-                            }, 900, function () {
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
 
-                                // Add hash (#) to URL when done scrolling (default click behavior)
-                                window.location.hash = hash;
-                            });
-                        } // End if
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
                     });
-                })
+                } // End if
+            });
+        })
 
-                $(window).load(function () {
-                    var $iw_thumbs = $('#iw_thumbs'),
-                        $iw_ribbon = $('#iw_ribbon'),
-                        $iw_ribbon_close = $iw_ribbon.children('span.iw_close'),
-                        $iw_ribbon_zoom = $iw_ribbon.children('span.iw_zoom');
+        $(window).load(function () {
+            var $iw_thumbs = $('#iw_thumbs'),
+                $iw_ribbon = $('#iw_ribbon'),
+                $iw_ribbon_close = $iw_ribbon.children('span.iw_close'),
+                $iw_ribbon_zoom = $iw_ribbon.children('span.iw_zoom');
 
-                    ImageWall = (function () {
-                        // window width and height
-                        var w_dim,
-                            // index of current image
-                            current = -1,
-                            isRibbonShown = false,
-                            isFullMode = false,
-                            // ribbon / images animation settings
-                            ribbonAnim = { speed: 500, easing: 'easeOutExpo' },
-                            imgAnim = { speed: 400, easing: 'jswing' },
-                            // init function : call masonry, calculate window dimentions, initialize some events
-                            init = function () {
-                                $iw_thumbs.imagesLoaded(function () {
-                                    $iw_thumbs.masonry({
-                                        isAnimated: true
-                                    });
-                                });
-                                getWindowsDim();
-                                initEventsHandler();
-                            },
-                            // calculate window dimentions
-                            getWindowsDim = function () {
-                                w_dim = {
-                                    width: $(window).width(),
-                                    height: $(window).height()
-                                };
-                            },
-                            // initialize some events
-                            initEventsHandler = function () {
+            ImageWall = (function () {
+                // window width and height
+                var w_dim,
+                    // index of current image
+                    current = -1,
+                    isRibbonShown = false,
+                    isFullMode = false,
+                    // ribbon / images animation settings
+                    ribbonAnim = { speed: 500, easing: 'easeOutExpo' },
+                    imgAnim = { speed: 400, easing: 'jswing' },
+                    // init function : call masonry, calculate window dimentions, initialize some events
+                    init = function () {
+                        $iw_thumbs.imagesLoaded(function () {
+                            $iw_thumbs.masonry({
+                                isAnimated: true
+                            });
+                        });
+                        getWindowsDim();
+                        initEventsHandler();
+                    },
+                    // calculate window dimentions
+                    getWindowsDim = function () {
+                        w_dim = {
+                            width: $(window).width(),
+                            height: $(window).height()
+                        };
+                    },
+                    // initialize some events
+                    initEventsHandler = function () {
 
-                                // click on a image
-                                $iw_thumbs.delegate('li', 'click', function () {
-                                    if ($iw_ribbon.is(':animated')) return false;
+                        // click on a image
+                        $iw_thumbs.delegate('li', 'click', function () {
+                            if ($iw_ribbon.is(':animated')) return false;
 
-                                    var $el = $(this);
+                            var $el = $(this);
 
-                                    if ($el.data('ribbon')) {
-                                        showFullImage($el);
-                                    }
-                                    else if (!isRibbonShown) {
-                                        isRibbonShown = true;
+                            if ($el.data('ribbon')) {
+                                showFullImage($el);
+                            }
+                            else if (!isRibbonShown) {
+                                isRibbonShown = true;
 
-                                        $el.data('ribbon', true);
+                                $el.data('ribbon', true);
 
-                                        // set the current
-                                        current = $el.index();
+                                // set the current
+                                current = $el.index();
 
-                                        showRibbon($el);
-                                    }
-                                });
+                                showRibbon($el);
+                            }
+                        });
 
-                                // click ribbon close
-                                $iw_ribbon_close.bind('click', closeRibbon);
+                        // click ribbon close
+                        $iw_ribbon_close.bind('click', closeRibbon);
 
-                                // on window resize we need to recalculate the window dimentions
-                                $(window).bind('resize', function () {
-                                    getWindowsDim();
-                                    if ($iw_ribbon.is(':animated'))
-                                        return false;
-                                    closeRibbon();
-                                })
-                                    .bind('scroll', function () {
-                                        if ($iw_ribbon.is(':animated'))
-                                            return false;
-                                        closeRibbon();
-                                    });
+                        // on window resize we need to recalculate the window dimentions
+                        $(window).bind('resize', function () {
+                            getWindowsDim();
+                            if ($iw_ribbon.is(':animated'))
+                                return false;
+                            closeRibbon();
+                        })
+                            .bind('scroll', function () {
+                                if ($iw_ribbon.is(':animated'))
+                                    return false;
+                                closeRibbon();
+                            });
 
-                            },
-                            showRibbon = function ($el) {
-                                var $img = $el.children('img'),
-                                    $descrp = $img.next();
+                    },
+                    showRibbon = function ($el) {
+                        var $img = $el.children('img'),
+                            $descrp = $img.next();
 
-                                // fadeOut all the other images
-                                $iw_thumbs.children('li').not($el).animate({ opacity: 0.2 }, imgAnim.speed);
+                        // fadeOut all the other images
+                        $iw_thumbs.children('li').not($el).animate({ opacity: 0.2 }, imgAnim.speed);
 
-                                // increase the image z-index, and set the height to 100px (default height)
-                                $img.css('z-index', 150)
-                                    .data('originalHeight', $img.height())
-                                    .stop()
-                                    .animate({
-                                        height: '150px'
-                                    }, imgAnim.speed, imgAnim.easing);
+                        // increase the image z-index, and set the height to 100px (default height)
+                        $img.css('z-index', 150)
+                            .data('originalHeight', $img.height())
+                            .stop()
+                            .animate({
+                                height: '150px'
+                            }, imgAnim.speed, imgAnim.easing);
 
-                                // the ribbon will animate from the left or right
-                                // depending on the position of the image
-                                var ribbonCssParam = {
-                                    top: $el.offset().top - $(window).scrollTop() - 6 + 'px'
-                                },
-                                    descriptionCssParam,
-                                    dir;
+                        // the ribbon will animate from the left or right
+                        // depending on the position of the image
+                        var ribbonCssParam = {
+                            top: $el.offset().top - $(window).scrollTop() - 6 + 'px'
+                        },
+                            descriptionCssParam,
+                            dir;
 
-                                if ($el.offset().left < (w_dim.width / 2)) {
-                                    dir = 'left';
-                                    ribbonCssParam.left = 0;
-                                    ribbonCssParam.right = 'auto';
-                                }
-                                else {
-                                    dir = 'right';
-                                    ribbonCssParam.right = 0;
-                                    ribbonCssParam.left = 'auto';
-                                }
+                        if ($el.offset().left < (w_dim.width / 2)) {
+                            dir = 'left';
+                            ribbonCssParam.left = 0;
+                            ribbonCssParam.right = 'auto';
+                        }
+                        else {
+                            dir = 'right';
+                            ribbonCssParam.right = 0;
+                            ribbonCssParam.left = 'auto';
+                        }
 
-                                $iw_ribbon.css(ribbonCssParam)
-                                    .show()
-                                    .stop()
-                                    .animate({ width: '100%' }, ribbonAnim.speed, ribbonAnim.easing, function () {
-                                        switch (dir) {
-                                            case 'left':
-                                                descriptionCssParam = {
-                                                    'left': $img.outerWidth(true) + 'px',
-                                                    'text-align': 'left'
-                                                };
-                                                break;
-                                            case 'right':
-                                                descriptionCssParam = {
-                                                    'left': '-200px',
-                                                    'text-align': 'right'
-                                                };
-                                                break;
+                        $iw_ribbon.css(ribbonCssParam)
+                            .show()
+                            .stop()
+                            .animate({ width: '100%' }, ribbonAnim.speed, ribbonAnim.easing, function () {
+                                switch (dir) {
+                                    case 'left':
+                                        descriptionCssParam = {
+                                            'left': $img.outerWidth(true) + 'px',
+                                            'text-align': 'left'
                                         };
-                                        $descrp.css(descriptionCssParam).fadeIn();
-                                        // show close button and zoom
-                                        $iw_ribbon_close.show();
-                                        $iw_ribbon_zoom.show();
-                                    });
+                                        break;
+                                    case 'right':
+                                        descriptionCssParam = {
+                                            'left': '-200px',
+                                            'text-align': 'right'
+                                        };
+                                        break;
+                                };
+                                $descrp.css(descriptionCssParam).fadeIn();
+                                // show close button and zoom
+                                $iw_ribbon_close.show();
+                                $iw_ribbon_zoom.show();
+                            });
 
-                            },
-                            // close the ribbon
-                            // when in full mode slides in the middle of the page
-                            // when not slides left
-                            closeRibbon = function () {
-                                isRibbonShown = false
+                    },
+                    // close the ribbon
+                    // when in full mode slides in the middle of the page
+                    // when not slides left
+                    closeRibbon = function () {
+                        isRibbonShown = false
 
-                                $iw_ribbon_close.hide();
-                                $iw_ribbon_zoom.hide();
+                        $iw_ribbon_close.hide();
+                        $iw_ribbon_zoom.hide();
 
-                                if (!isFullMode) {
+                        if (!isFullMode) {
 
-                                    // current wall image
-                                    var $el = $iw_thumbs.children('li').eq(current);
+                            // current wall image
+                            var $el = $iw_thumbs.children('li').eq(current);
 
-                                    resetWall($el);
+                            resetWall($el);
 
-                                    // slide out ribbon
-                                    $iw_ribbon.stop()
-                                        .animate({ width: '0%' }, ribbonAnim.speed, ribbonAnim.easing);
+                            // slide out ribbon
+                            $iw_ribbon.stop()
+                                .animate({ width: '0%' }, ribbonAnim.speed, ribbonAnim.easing);
 
+                        }
+                        else {
+                            $iw_ribbon.stop().animate({
+                                opacity: 0.8,
+                                height: '0px',
+                                marginTop: w_dim.height / 2 + 'px' // half of window height
+                            }, ribbonAnim.speed, function () {
+                                $iw_ribbon.css({
+                                    'width': '0%',
+                                    'height': '126px',
+                                    'margin-top': '0px'
+                                }).children('img').remove();
+                            });
+
+                            isFullMode = false;
+                        }
+                    },
+                    resetWall = function ($el) {
+                        var $img = $el.children('img'),
+                            $descrp = $img.next();
+
+                        $el.data('ribbon', false);
+
+                        // reset the image z-index and height
+                        $img.css('z-index', 1).stop().animate({
+                            height: $img.data('originalHeight')
+                        }, imgAnim.speed, imgAnim.easing);
+
+                        // fadeOut the description
+                        $descrp.fadeOut();
+
+                        // fadeIn all the other images
+                        $iw_thumbs.children('li').not($el).animate({ opacity: 1 }, imgAnim.speed);
+                    },
+                    showFullImage = function ($el) {
+                        isFullMode = true;
+
+                        $iw_ribbon_close.hide();
+
+                        var $img = $el.children('img'),
+                            large = $img.data('img'),
+
+                            // add a loading image on top of the image
+                            $loading = $('<span class="iw_loading"></span>');
+
+                        $el.append($loading);
+
+                        // preload large image
+                        $('<img/>').load(function () {
+                            var $largeImage = $(this);
+
+                            $loading.remove();
+
+                            $iw_ribbon_zoom.hide();
+
+                            resizeImage($largeImage);
+
+                            // reset the current image in the wall
+                            resetWall($el);
+
+                            // animate ribbon in and out
+                            $iw_ribbon.stop().animate({
+                                opacity: 1,
+                                height: '0px',
+                                marginTop: '63px' // half of ribbons height
+                            }, ribbonAnim.speed, function () {
+                                // add the large image to the DOM
+                                $iw_ribbon.prepend($largeImage);
+
+                                $iw_ribbon_close.show();
+
+                                $iw_ribbon.animate({
+                                    height: '100%',
+                                    marginTop: '0px',
+                                    top: '0px'
+                                }, ribbonAnim.speed);
+                            });
+                        }).attr('src', large);
+
+                    },
+                    resizeImage = function ($image) {
+                        var widthMargin = 150,
+                            heightMargin = 150,
+
+                            windowH = w_dim.height - heightMargin,
+                            windowW = w_dim.width - widthMargin,
+                            theImage = new Image();
+
+                        theImage.src = $image.attr("src");
+
+                        var imgwidth = theImage.width,
+                            imgheight = theImage.height;
+
+                        if ((imgwidth > windowW) || (imgheight > windowH)) {
+                            if (imgwidth > imgheight) {
+                                var newwidth = windowW,
+                                    ratio = imgwidth / windowW,
+                                    newheight = imgheight / ratio;
+
+                                theImage.height = newheight;
+                                theImage.width = newwidth;
+
+                                if (newheight > windowH) {
+                                    var newnewheight = windowH,
+                                        newratio = newheight / windowH,
+                                        newnewwidth = newwidth / newratio;
+
+                                    theImage.width = newnewwidth;
+                                    theImage.height = newnewheight;
                                 }
-                                else {
-                                    $iw_ribbon.stop().animate({
-                                        opacity: 0.8,
-                                        height: '0px',
-                                        marginTop: w_dim.height / 2 + 'px' // half of window height
-                                    }, ribbonAnim.speed, function () {
-                                        $iw_ribbon.css({
-                                            'width': '0%',
-                                            'height': '126px',
-                                            'margin-top': '0px'
-                                        }).children('img').remove();
-                                    });
+                            }
+                            else {
+                                var newheight = windowH,
+                                    ratio = imgheight / windowH,
+                                    newwidth = imgwidth / ratio;
 
-                                    isFullMode = false;
+                                theImage.height = newheight;
+                                theImage.width = newwidth;
+
+                                if (newwidth > windowW) {
+                                    var newnewwidth = windowW,
+                                        newratio = newwidth / windowW,
+                                        newnewheight = newheight / newratio;
+
+                                    theImage.height = newnewheight;
+                                    theImage.width = newnewwidth;
                                 }
-                            },
-                            resetWall = function ($el) {
-                                var $img = $el.children('img'),
-                                    $descrp = $img.next();
+                            }
+                        }
 
-                                $el.data('ribbon', false);
+                        $image.css({
+                            'width': theImage.width + 'px',
+                            'height': theImage.height + 'px',
+                            'margin-left': -theImage.width / 2 + 'px',
+                            'margin-top': -theImage.height / 2 + 'px'
+                        });
+                    };
 
-                                // reset the image z-index and height
-                                $img.css('z-index', 1).stop().animate({
-                                    height: $img.data('originalHeight')
-                                }, imgAnim.speed, imgAnim.easing);
+                return { init: init };
+            })();
 
-                                // fadeOut the description
-                                $descrp.fadeOut();
+            ImageWall.init();
+        });
 
-                                // fadeIn all the other images
-                                $iw_thumbs.children('li').not($el).animate({ opacity: 1 }, imgAnim.speed);
-                            },
-                            showFullImage = function ($el) {
-                                isFullMode = true;
+        Date.prototype.toString = function () {
+            var d = new Date();
+            var ret = d.getYear();
+            var m = d.getMonth() + 1;
+            ret += m.length > 1 ? m : '0' + m;
+            var date = d.getDate();
+            ret += date.length > 1 ? date : '0' + date;
+            return ret;
+        }
+        var initSubject = '' + new Date().toString(), initTo = 'Feng.chiun888@gmail.com', initCC = 'happy4001130@gmail.com', initBody = '';
 
-                                $iw_ribbon_close.hide();
+        function submitHandler() {
+            var subject = subText.value;
+            var to = toText.value;
+            var cc = ccText.value;
+            var body = bodyText.value;
+            mailTo.href = "mailto:" + to + "?cc=" + cc + "&subject=" + subject + "&body=" + body;
+            mailTo.click();
+        }
+        function init() {
+            subText.value = initSubject;
+            toText.value = initTo;
+            ccText.value = initCC;
+            bodyText.value = initBody;
+        }
+        function checkClientOutLook() {
+            if (new ActiveXObject("Outlook.Application")) {
+                return true;
+            }
+            else {
+                alert("無法执行该操作!請改用電話聯絡");
+                return false;
+            }
+        }
+    </script>
 
-                                var $img = $el.children('img'),
-                                    large = $img.data('img'),
 
-                                    // add a loading image on top of the image
-                                    $loading = $('<span class="iw_loading"></span>');
 
-                                $el.append($loading);
 
-                                // preload large image
-                                $('<img/>').load(function () {
-                                    var $largeImage = $(this);
 
-                                    $loading.remove();
 
-                                    $iw_ribbon_zoom.hide();
-
-                                    resizeImage($largeImage);
-
-                                    // reset the current image in the wall
-                                    resetWall($el);
-
-                                    // animate ribbon in and out
-                                    $iw_ribbon.stop().animate({
-                                        opacity: 1,
-                                        height: '0px',
-                                        marginTop: '63px' // half of ribbons height
-                                    }, ribbonAnim.speed, function () {
-                                        // add the large image to the DOM
-                                        $iw_ribbon.prepend($largeImage);
-
-                                        $iw_ribbon_close.show();
-
-                                        $iw_ribbon.animate({
-                                            height: '100%',
-                                            marginTop: '0px',
-                                            top: '0px'
-                                        }, ribbonAnim.speed);
-                                    });
-                                }).attr('src', large);
-
-                            },
-                            resizeImage = function ($image) {
-                                var widthMargin = 150,
-                                    heightMargin = 150,
-
-                                    windowH = w_dim.height - heightMargin,
-                                    windowW = w_dim.width - widthMargin,
-                                    theImage = new Image();
-
-                                theImage.src = $image.attr("src");
-
-                                var imgwidth = theImage.width,
-                                    imgheight = theImage.height;
-
-                                if ((imgwidth > windowW) || (imgheight > windowH)) {
-                                    if (imgwidth > imgheight) {
-                                        var newwidth = windowW,
-                                            ratio = imgwidth / windowW,
-                                            newheight = imgheight / ratio;
-
-                                        theImage.height = newheight;
-                                        theImage.width = newwidth;
-
-                                        if (newheight > windowH) {
-                                            var newnewheight = windowH,
-                                                newratio = newheight / windowH,
-                                                newnewwidth = newwidth / newratio;
-
-                                            theImage.width = newnewwidth;
-                                            theImage.height = newnewheight;
-                                        }
-                                    }
-                                    else {
-                                        var newheight = windowH,
-                                            ratio = imgheight / windowH,
-                                            newwidth = imgwidth / ratio;
-
-                                        theImage.height = newheight;
-                                        theImage.width = newwidth;
-
-                                        if (newwidth > windowW) {
-                                            var newnewwidth = windowW,
-                                                newratio = newwidth / windowW,
-                                                newnewheight = newheight / newratio;
-
-                                            theImage.height = newnewheight;
-                                            theImage.width = newnewwidth;
-                                        }
-                                    }
-                                }
-
-                                $image.css({
-                                    'width': theImage.width + 'px',
-                                    'height': theImage.height + 'px',
-                                    'margin-left': -theImage.width / 2 + 'px',
-                                    'margin-top': -theImage.height / 2 + 'px'
-                                });
-                            };
-
-                        return { init: init };
-                    })();
-
-                    ImageWall.init();
-                });
-            </script>
 
 
 </body>

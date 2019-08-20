@@ -31,6 +31,12 @@
         .container {
         }
 
+        #s1 {
+            background-image: url('images/background1.png');
+            width: 100%;
+            background-repeat:round;
+        }
+
         section {
             background-size: cover;
             background-repeat: no-repeat;
@@ -54,8 +60,8 @@
         @media(max-width:1280px) {
             section {
                 height: 680px;
-                margin-top:5px;
-                margin-bottom:100px
+                margin-top: 5px;
+                margin-bottom: 100px
             }
         }
 
@@ -70,12 +76,11 @@
         }
 
         .bg-1 {
-            background-image: url('images/spot1.png');
-            background-repeat: round;
+            /*background-image: url('images/spot1.png');*/
+            /*background-repeat: round;*/
             /*background: #f1f1f1;*/
-            color: #bdbdbd;
-            min-height:500px;
-            
+            /*color: #bdbdbd;*/
+            min-height: 600px;
         }
 
 
@@ -198,7 +203,7 @@
         }
     </style>
 </head>
-<body id="myPage" data-spy="scroll" style="background-color:rgba(0, 0, 0, 0.84) " data-target=".navbar" data-offset="50">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -265,122 +270,125 @@
     </div>
 
     <!-- Container (The Band Section) -->
-    <section>
-        <div id="about" class="container text-center ">
-            <h2 style="padding-top:70px;color:white;font-weight:900;font-size:26pt;font-family:微軟正黑體">峰群國際包裝科技</h2>
-            <p style="color:white"><em>公司願景</em></p>
-            <p style="color:white;font-weight:900;font-size:16pt;font-family:微軟正黑體">隨著各項包裝技術的日新月異，峰群國際包裝科技有限公司在全體員工努力之下也不斷地追求革新及精進本身技術升級，更在製作產品上針對環境及環保概念運用不斷配合政策提升品質,達成食品安全包裝及環保標準,將配合政府生產力4.0方向提升公司產能,效能,創造揚名於國際首屈一指的包裝指標；同時結合各種不同領域的產業升級取得資訊上,服務上迅速，共同發展出最大的效益，也發揮「取之社會、用之社會」的精神回饋給需要的人們。並在環保議題上盡一份心力，達到永續發展的目標。</p>
-            <br>
-            <div class="row " style="margin-top:10px">
-                <div class="col-sm-3 hidden-xs">
-                    <!--<p class="text-center"><strong>印刷機監控</strong></p><br>-->
-                    <a href="#demo" data-toggle="collapse">
-                        <img src="images/印刷機_255.png" class="img-thumbnail person" alt="印刷機監控" width="255" height="255">
-                    </a>
-                    <div id="demo" class="collapse " style="z-index:500">
-                        <p style="color:white"> 印刷機監控 </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 hidden-xs">
-                    <!--<p class="text-center"><strong> 分條&製袋過程 </strong></p><br>-->
-                    <a href="#demo2" data-toggle="collapse">
-                        <img src="images/分條機&製袋機255.png" class="img-thumbnail person" alt="" width="255" height="255">
-                    </a>
-                    <div id="demo2" class="collapse" style="z-index:500">
-                        <p style="color:white">分條&製袋過程</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 hidden-xs">
-                    <!--<p class="text-center"><strong>分條&製袋過程</strong></p><br>-->
-                    <a href="#demo3" data-toggle="collapse">
-                        <img src="images/分條機&製袋機255-1.png" class="img-thumbnail person" alt="" width="255" height="255">
-                    </a>
-                    <div id="demo3" class="collapse" style="z-index:500">
-                        <p style="color:white"> 分條&製袋過程 </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 hidden-xs">
-                    <!--<p class="text-center"><strong>分條&製袋過程</strong></p><br>-->
-                    <a href="#demo4" data-toggle="collapse">
-                        <img src="images/分條機&製袋機255-1.png" class="img-thumbnail person" alt="" width="255" height="255">
-                    </a>
-                    <div id="demo4" class="collapse" style="z-index:500">
-                        <p style="color:white"> 分條&製袋過程 </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--<!-- Container (Product Section) -->
-
-    <div id="product" class=" bg-1">
-        <br /> <br /><br />
-        <div style="align-content:center">
-            <h1 style="padding-top:10px;color:#8768f4;text-align:center;font-weight:900;font-size:26pt;font-family:微軟正黑體">產品新資訊NEWS</h1>
-            <div class="iw_wrapper" style="height:inherit;width:inherit">
-                <ul class="iw_thumbs"style="margin-left:16%; margin-right:10%" id="iw_thumbs">
-                    <li> <img src="images/gif/foodbag5x3.gif" data-img="images/gif/foodbag5x3.gif" alt="Thumb1" /><div><h2>食品袋1</h2><p>產品規格介紹</p></div> </li>
-                    <li> <img src="images/gif/rice5x3.gif" data-img="images/gif/rice5x3.gif" alt="Thumb2" /><div><h2>食品袋2</h2><p>產品規格介紹</p></div>     </li>
-                    <li><img src="images/gif/seaweed5x3.gif" data-img="images/gif/seaweed5x3.gif" alt="Thumb3" /><div><h2>食品袋3</h2><p>產品規格介紹</p></div></li>
-                    <li><img src="images/gif/sugar200 x300.gif"  data-img="images/gif/sugar200 x300.gif" alt="Thumb4" /><div><h2>食品袋4</h2><p>產品規格介紹</p></div></li>
-                    <li><img src="images/gif/popcorn5x3.gif" data-img="images/gif/popcorn5x3.gif" alt="Thumb5" /><div><h2>食品袋5</h2><p>產品規格介紹</p></div> </li>
-                    <li><img src="images/gif/hen200 x300.gif" data-img="images/gif/hen200 x300.gif" alt="Thumb6" /><div><h2>食品袋6</h2><p>產品規格介紹</p></div></li>
-                    <li><img src="images/gif/wei5x3.gif" data-img="images/gif/wei5x3.gif" alt="Thumb6" /><div><h2>食品袋7</h2><p>產品規格介紹</p></div></li>
-                    <li><img src="images/gif/noodles5x3.gif" data-img="images/gif/noodles5x3.gif" alt="Thumb8" /><div><h2>食品袋8</h2><p>產品規格介紹</p></div></li>
-                    <li><img src="images/gif/Mask200 x300.gif" data-img="images/gif/Mask200 x300.gif" alt="Thumb9" /><div><h2>食品袋9</h2><p>產品規格介紹</p></div></li>
-                    <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb10" /><div><h2>食品袋10</h2><p>產品規格介紹</p></div></li>
-                   <!--<li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb4" /><div><h2>食品袋11</h2><p>產品規格介紹</p></div></li>
-                   <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb5" /><div><h2>食品袋12</h2><p>產品規格介紹</p></div></li>-->
-                </ul>
-            </div>
-            <div id="iw_ribbon" class="iw_ribbon">
-                <span class="iw_close">  滾輪關閉</span>
-                <span class="iw_zoom">點擊圖片放大</span>
-            </div>
-        </div>
-    </div>
-
-    <!--<div class="rm_wrapper" style="max-width:100%;align-content:center;image-rendering:optimizeQuality;height:480px">
-            <img src="images/net.gif" alt="" width="100%" height="450">
-
-        </div>
-    </div>-->
-    <!-- Container (Contact Section) -->
-    <div id="contact" class="container">
-        <br />
-        <h3 style="color:white" class="text-center">聯絡我們</h3>
-        <p style="color:white" class="text-center"><em>Welcome To Our Website!</em></p>
-
-        <div class="row">
-            <div class="col-md-4">
-
-                <p style="color:white"><span class="glyphicon glyphicon-map-marker white"></span>台灣屏東市豐田街13巷3號</p>
-                <p style="color:white"><span class="glyphicon glyphicon-phone white"></span> Phone:08-7216861 Fax:08-7212909</p><!--<style="background-color:white">-->
-                <p style="color:white"><span class="glyphicon glyphicon-envelope white"></span>Email: Feng.chiun888@gmail.com</p>
-            </div>
-            <div class="col-md-8" onload="init()">
-
-                <!--<a href="mailto:Feng.chiun888@gmail.com?subject=test&cc=sample@hotmail.com&body=use mailto sample" style="font-size:14pt;font-weight:600;color:white">按我發送郵件聯絡我們</a>-->
-                <form name='sendmail' action='mailto:Feng.chiun888@gmail.com'>
-
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="ccText" name="cc" value='happy4001130@gmail.com' placeholder="副本發送網址" readonly type="email">
-                    </div>
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="subText" name="subject" value='' placeholder="主旨" type="text">
-                    </div>
-                    <input class="form-control" id="bodyText" name="body" value='' placeholder="請留下連絡電話及相關內容" type="text" cols=100 rows=10 required>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-12 form-group">
-
-                            <button class="btn pull-right btn-default" onclick="submitHandler();" name="btSend" type="submit">發送</button>
-                            <a href="mailto:" id="mailTo"></a>
-                            <!--<a href="mailto:Feng.chiun888@gmail.com?subject=test&cc=sample@hotmail.com&body=use mailto sample" id="mailTo"></a>-->
+    <div class="jumbotron" id="s1">
+        <section>
+            <div id="about" class="container text-center ">
+                <h2 style="padding-top:70px;color:white;font-weight:900;font-size:26pt;font-family:微軟正黑體">峰群國際包裝科技</h2>
+                <p style="color:white"><em>公司願景</em></p>
+                <p style="color:white;font-weight:900;font-size:16pt;font-family:微軟正黑體">隨著各項包裝技術的日新月異，峰群國際包裝科技有限公司在全體員工努力之下也不斷地追求革新及精進本身技術升級，更在製作產品上針對環境及環保概念運用不斷配合政策提升品質,達成食品安全包裝及環保標準,將配合政府生產力4.0方向提升公司產能,效能,創造揚名於國際首屈一指的包裝指標；同時結合各種不同領域的產業升級取得資訊上,服務上迅速，共同發展出最大的效益，也發揮「取之社會、用之社會」的精神回饋給需要的人們。並在環保議題上盡一份心力，達到永續發展的目標。</p>
+                <br>
+                <div class="row " style="margin-top:10px">
+                    <div class="col-sm-3 hidden-xs">
+                        <!--<p class="text-center"><strong>印刷機監控</strong></p><br>-->
+                        <a href="#demo" data-toggle="collapse">
+                            <img src="images/印刷機_255.png" class="img-thumbnail person" alt="印刷機監控" width="255" height="255">
+                        </a>
+                        <div id="demo" class="collapse " style="z-index:500">
+                            <p style="color:white"> 印刷機監控 </p>
                         </div>
                     </div>
-                </form>
+                    <div class="col-sm-3 hidden-xs">
+                        <!--<p class="text-center"><strong> 分條&製袋過程 </strong></p><br>-->
+                        <a href="#demo2" data-toggle="collapse">
+                            <img src="images/分條機&製袋機255.png" class="img-thumbnail person" alt="" width="255" height="255">
+                        </a>
+                        <div id="demo2" class="collapse" style="z-index:500">
+                            <p style="color:white">分條&製袋過程</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 hidden-xs">
+                        <!--<p class="text-center"><strong>分條&製袋過程</strong></p><br>-->
+                        <a href="#demo3" data-toggle="collapse">
+                            <img src="images/分條機&製袋機255-1.png" class="img-thumbnail person" alt="" width="255" height="255">
+                        </a>
+                        <div id="demo3" class="collapse" style="z-index:500">
+                            <p style="color:white"> 分條&製袋過程 </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 hidden-xs">
+                        <!--<p class="text-center"><strong>分條&製袋過程</strong></p><br>-->
+                        <a href="#demo4" data-toggle="collapse">
+                            <img src="images/製造過程.jpg" class="img-thumbnail person" alt="" width="255" height="255">
+                        </a>
+
+                            <div id="demo4" class="collapse" style="z-index:500">
+                            <p style="color:white"> 製袋過程 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--<!-- Container (Product Section) -->
+
+        <div id="product" class=" bg-1">
+            <br /> <br /><br />
+            <div style="align-content:center">
+                <h1 style="padding-top:10px;color:#f5f5f5;text-align:center;font-weight:900;font-size:32pt;font-family:微軟正黑體">產品新資訊NEWS</h1>
+                <div class="iw_wrapper" style="height:inherit;width:inherit">
+                    <ul class="iw_thumbs" style="margin-left:16%; margin-right:10%" id="iw_thumbs">
+                        <li> <img src="images/gif/foodbag5x3.gif" data-img="images/gif/foodbag5x3.gif" alt="Thumb1" /><div><h2 style="margin-bottom:4px">食品袋1</h2><p style="word-spacing:4px">產品規格介紹</p></div> </li>
+                        <li> <img src="images/gif/rice5x3.gif" data-img="images/gif/rice5x3.gif" alt="Thumb2" /><div><h2 style="margin-bottom:4px">真空袋</h2><p style="word-spacing:4px">可真空延長產品的保存期限<br />可承受較大溫差的條件環境 (-18~95c)<br />常用於水產類、果乾、米類、肉類等項目</p></div> </li>
+                        <li><img src="images/gif/seaweed5x3.gif" data-img="images/gif/seaweed5x3.gif" alt="Thumb3" /><div><h2 style="margin-bottom:4px">食品袋3</h2><p style="word-spacing:4px">產品規格介紹</p ></div></li>
+                        <li><img src="images/gif/sugar200 x300.gif" data-img="images/gif/sugar200 x300.gif" alt="Thumb4" /><div><h2 style="margin-bottom:4px">食品袋4</h2><p>產品規格介紹</p></div></li>
+                        <li><img src="images/gif/popcorn5x3.gif" data-img="images/gif/popcorn5x3.gif" alt="Thumb5" /><div><h2 style="margin-bottom:4px">站立夾鏈袋</h2><p style="word-spacing:4px">可讓商品的呈現更立體、更完整<br />夾鏈能讓袋子重複使用<br />常用於餅乾零食、裝飾品、工業零件類等項目</p></div> </li>
+                        <li><img src="images/gif/hen200 x300.gif" data-img="images/gif/hen200 x300.gif" alt="Thumb6" /><div><h2 style="margin-bottom:4px">高溫蒸煮袋</h2><p style="word-spacing:4px">耐高溫與高壓的蒸煮條件<br />有效延長產品的保存期限<br />常用於調理食品、醃製品、寵物食品等項目</p></div></li>
+                        <li><img src="images/gif/wei5x3.gif" data-img="images/gif/wei5x3.gif" alt="Thumb6" /><div><h2 style="margin-bottom:4px">鋁箔袋</h2><p style="word-spacing:4px">鋁箔材質對於隔絕水氣與光線有絕佳的效果<br />可延長產品的保存期限<br />常用於面膜、醫藥、咖啡、茶葉等項目</p></div></li>
+                        <li><img src="images/gif/noodles5x3.gif" data-img="images/gif/noodles5x3.gif" alt="Thumb8" /><div><h2 style="margin-bottom:4px">數位印刷袋</h2><p style="word-spacing:4px">常用於新產品發售，測試販售銷量<br />數量可少量多樣免版費<br />常用於生技、咖啡、茶葉、工業等類項目</p></div></li>
+                        <li><img src="images/gif/Mask200 x300.gif" data-img="images/gif/Mask200 x300.gif" alt="Thumb9" /><div><h2 style="margin-bottom:4px">夾鏈袋</h2><p style="word-spacing:4px">多了夾鏈能讓袋子重複使用<br />夾鏈袋能夠減少食物浪費的問題<br />常用於休閒食品、醫療、衣褲類等項目</p></div></li>
+                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb10" /><div><h2 style="margin-bottom:4px">食品袋10</h2><p style="word-spacing:4px">產品規格介紹</p></div></li>
+                        <!--<li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb4" /><div><h2>食品袋11</h2><p>產品規格介紹</p></div></li>
+                        <li><img src="images/net.gif" data-img="images/net.gif" alt="Thumb5" /><div><h2>食品袋12</h2><p>產品規格介紹</p></div></li>-->
+                    </ul>
+                </div>
+                <div id="iw_ribbon" class="iw_ribbon">
+                    <span class="iw_close"></span>
+                    <span class="iw_zoom">點擊圖片放大</span>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="rm_wrapper" style="max-width:100%;align-content:center;image-rendering:optimizeQuality;height:480px">
+                <img src="images/net.gif" alt="" width="100%" height="450">
+
+            </div>
+        </div>-->
+        <!-- Container (Contact Section) -->
+        <div id="contact" class="container">
+            <br />
+            <h3 style="color:#f5f5f5" class="text-center">聯絡我們</h3>
+            <p style="color:#f5f5f5" class="text-center"><em>Welcome To Our Website!</em></p>
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <p style="color:#f5f5f5"><span class="glyphicon glyphicon-map-marker white"></span>台灣屏東市豐田街13巷3號</p>
+                    <p style="color:#f5f5f5"><span class="glyphicon glyphicon-phone white"></span> Phone:08-7216861 Fax:08-7212909</p><!--<style="background-color:white">-->
+                    <p style="color:#f5f5f5"><span class="glyphicon glyphicon-envelope white"></span>Email: Feng.chiun888@gmail.com</p>
+                </div>
+                <div class="col-md-6" onload="init()">
+
+                    <!--<a href="mailto:Feng.chiun888@gmail.com?subject=test&cc=sample@hotmail.com&body=use mailto sample" style="font-size:14pt;font-weight:600;color:white">按我發送郵件聯絡我們</a>-->
+                    <form name='sendmail' action='mailto:Feng.chiun888@gmail.com'>
+
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="ccText" name="cc" value='happy4001130@gmail.com' placeholder="副本發送網址" readonly type="email">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="subText" name="subject" value='' placeholder="主旨" type="text">
+                        </div>
+                        <input class="form-control" id="bodyText" name="body" value='' placeholder="請留下連絡電話及相關內容" type="text" cols=100 rows=10 required>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+
+                                <button class="btn btn pull-right btn-default" onclick="submitHandler();" name="btSend" type="submit">發送</button>
+                                <a href="mailto:" id="mailTo"></a>
+                                <!--<a href="mailto:Feng.chiun888@gmail.com?subject=test&cc=sample@hotmail.com&body=use mailto sample" id="mailTo"></a>-->
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <!--<form name='sendmail' action='Feng.chiun888@gmail.com'>
                 <input name='cc' type='text' placeholder="發送副本網址">
@@ -421,7 +429,6 @@
 
     <script type="text/javascript" src="Scripts/jquery.transform-0.9.3.min_.js"></script>
     <script type="text/javascript" src="Scripts/jquery.mousewheel.js"></script>
-
     <script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
     <script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
     <script type="text/javascript">
@@ -576,7 +583,7 @@
                                         break;
                                     case 'right':
                                         descriptionCssParam = {
-                                            'left': '-200px',
+                                            'left': '-250px',
                                             'text-align': 'right'
                                         };
                                         break;
@@ -798,7 +805,7 @@
 </body>
 </html>
 
-
+<!--style="<!--background-color:rgba(0, 0, 0, 0.84)-->"-->
 
 
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>FengChiun Packing&Technology co;</title>
+    <title>FengChiun Packing&Technology co;峰群包裝;峰群</title>
     <meta charset="utf-8">
     <meta name="author" content="Codrops" />
     <!--<meta name="description" content="Image Wall with jQuery and CSS3" />-->
@@ -39,7 +39,7 @@
 
         section {
             background-size: cover;
-            background-repeat: no-repeat;
+            background-repeat: round;
             /*background-image: url('images/section620.jpg');*/
         }
 
@@ -53,154 +53,274 @@
 
         @media(max-width:1980px) {
             section {
-                height: 920px;
-            }
-        }
-
-        @media(max-width:1280px) {
-            section {
                 height: 680px;
-                margin-top: 5px;
-                margin-bottom: 100px
+            }
+           
+            ul.iw_thumbs li:nth-child(even) img {
+                height: 90px;
+            }
+
+            ul.iw_thumbs li:nth-child(odd) img {
+                height: 65px;
+            }
+
+            ul.iw_thumbs li:nth-child(5n) img {
+                height: 60px;
+            }
+
+            ul.iw_thumbs li:nth-child(3n) img {
+                height: 130px;
+            }
+
+            ul.iw_thumbs li:nth-child(8n) img {
+                height: 70px;
+            }
+
+            ul.iw_thumbs li:nth-child(1) {
+                margin-left: 110px;
+            }
+
+            ul.iw_thumbs li:nth-child(even) {
+                margin-top: 60px;
+            }
+
+            ul.iw_thumbs li:nth-child(2n) {
+                margin-left: 80px;
+            }
+
+            #text1 {
+                font-size: 16px;
+            }
+            #product div h1 {
+                font-size: 32px;
+            }
+            .container h2 {
+                font-size: 32px;
             }
         }
+        @media(max-width:1280px) {
+               .container h2 {
+                font-size: 26px;
+                }
+                ul.iw_thumbs li:nth-child(even) img {
+                    height: 90px;
+                }
 
-        @media (max-width: 600px) {
+                ul.iw_thumbs li:nth-child(odd) img {
+                    height: 65px;
+                }
+
+                ul.iw_thumbs li:nth-child(5n) img {
+                    height: 60px;
+                }
+
+                ul.iw_thumbs li:nth-child(3n) img {
+                    height: 130px;
+                }
+
+                ul.iw_thumbs li:nth-child(8n) img {
+                    height: 70px;
+                }
+
+                ul.iw_thumbs li:nth-child(1) {
+                    margin-left: 110px;
+                }
+
+                ul.iw_thumbs li:nth-child(even) {
+                    margin-top: 60px;
+                }
+
+                ul.iw_thumbs li:nth-child(2n) {
+                    margin-left: 80px;
+                }
+
+                section {
+                    height: 680px;
+                    margin-top: 5px;
+                    margin-bottom: 100px
+                }
+
+                #text1 {
+                    font-size: 16px;
+                }
+                #product div h1 {
+                font-size: 32px;
+                }
+        }
+        @media(max-width:390px) {
+                section {
+                    height: 400px;
+                    margin-top: 5px;
+                    margin-bottom: 50px
+                }
+                .container h2 {
+                        font-size: 22px;
+                }
+                #text1 {
+                    font-size: 12px;
+                }
+                #product div h1 {
+                font-size: 24px;
+                 }
+                ul.iw_thumbs li img {
+                position: relative;
+                margin: inherit;
+                }
+        }
+        @media(max-width:600px) {
+
             .carousel-caption {
                 display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
             }
-
+            .container h2 {
+                font-size: 24px;
+            }
+            #text1 {
+                font-size: 16px;
+            }
+            #product div h1 {
+                font-size: 26px;
+            }
             section {
-                height: 800px;
+                height: 420px;
+            }
+
+            ul.iw_thumbs li img {
+                position: relative;
+                margin: inherit;
             }
         }
 
-        .bg-1 {
-            /*background-image: url('images/spot1.png');*/
-            /*background-repeat: round;*/
-            /*background: #f1f1f1;*/
-            /*color: #bdbdbd;*/
-            min-height: 600px;
-        }
+                    .bg-1 {
+                        /*background-image: url('images/spot1.png');*/
+                        /*background-repeat: round;*/
+                        /*background: #f1f1f1;*/
+                        /*color: #bdbdbd;*/
+                        min-height: 600px;
+                    }
 
 
 
-        .list-group-item:first-child {
-            border-top-right-radius: 0;
-            border-top-left-radius: 0;
-        }
+                    .list-group-item:first-child {
+                        border-top-right-radius: 0;
+                        border-top-left-radius: 0;
+                    }
 
-        .list-group-item:last-child {
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 0;
-        }
+                    .list-group-item:last-child {
+                        border-bottom-right-radius: 0;
+                        border-bottom-left-radius: 0;
+                    }
 
-        <!-- .thumbnail {
-            padding: 0 0 15px 0;
-            border: none;
-            border-radius: 0;
-        }
+                    .thumbnail {
+                        padding: 0 0 15px 0;
+                        border: none;
+                        border-radius: 0;
+                    }
 
-            .thumbnail p {
-                margin-top: 15px;
-                color: #555;
-            }
-        -->
-
-        .btn {
-            padding: 10px 20px;
-            background-color: #333;
-            color: #f1f1f1;
-            border-radius: 0;
-            transition: .2s;
-        }
-
-            .btn:hover, .btn:focus {
-                border: 1px solid #333;
-                background-color: #fff;
-                color: #000;
-            }
-
-        .modal-header, h4, .close {
-            background-color: #333;
-            color: #fff !important;
-            text-align: center;
-            font-size: 30px;
-        }
-
-        .modal-header, .modal-body {
-            padding: 40px 50px;
-        }
-
-        .nav-tabs li a {
-            color: #777;
-        }
+                        .thumbnail p {
+                            margin-top: 15px;
+                            color: #555;
+                        }
 
 
+                    .btn {
+                        padding: 10px 20px;
+                        background-color: #333;
+                        color: #f1f1f1;
+                        border-radius: 0;
+                        transition: .2s;
+                    }
+
+                        .btn:hover, .btn:focus {
+                            border: 1px solid #333;
+                            background-color: #fff;
+                            color: #000;
+                        }
+
+                    .modal-header, h4, .close {
+                        background-color: #333;
+                        color: #fff !important;
+                        text-align: center;
+                        font-size: 30px;
+                    }
+
+                    .modal-header, .modal-body {
+                        padding: 40px 50px;
+                    }
+
+                    .nav-tabs li a {
+                        color: #777;
+                    }
 
 
-        .navbar {
-            font-family: Montserrat, sans-serif;
-            margin-bottom: 0;
-            background-color: #2d2d30;
-            border: 0;
-            font-size: 11px !important;
-            letter-spacing: 4px;
-            opacity: 0.7;
-        }
 
-            .navbar li a, .navbar .navbar-brand {
-                color: #d5d5d5 !important;
-            }
 
-        .navbar-nav li a:hover {
-            color: #fff !important;
-        }
+                    .navbar {
+                        font-family: Montserrat, sans-serif;
+                        margin-bottom: 0;
+                        background-color: #2d2d30;
+                        border: 0;
+                        font-size: 11px !important;
+                        letter-spacing: 4px;
+                        opacity: 0.7;
+                    }
 
-        .navbar-nav li.active a {
-            color: #fff !important;
-            background-color: #29292c !important;
-        }
+                        .navbar li a, .navbar .navbar-brand {
+                            color: #d5d5d5 !important;
+                        }
 
-        .navbar-default .navbar-toggle {
-            border-color: transparent;
-        }
+                    .navbar-nav li a:hover {
+                        color: #fff !important;
+                    }
 
-        .open .dropdown-toggle {
-            color: #fff;
-            background-color: #555 !important;
-        }
+                    .navbar-nav li.active a {
+                        color: #fff !important;
+                        background-color: #29292c !important;
+                    }
 
-        .dropdown-menu li a {
-            color: #000 !important;
-        }
+                    .navbar-default .navbar-toggle {
+                        border-color: transparent;
+                    }
 
-            .dropdown-menu li a:hover {
-                background-color: red !important;
-            }
+                    .open .dropdown-toggle {
+                        color: #fff;
+                        background-color: #555 !important;
+                    }
 
-        footer {
-            background-color: #2d2d30;
-            color: #f5f5f5;
-            padding: 32px;
-        }
+                    .dropdown-menu li a {
+                        color: #000 !important;
+                    }
 
-            footer a {
-                color: #f5f5f5;
-            }
+                        .dropdown-menu li a:hover {
+                            background-color: red !important;
+                        }
 
-                footer a:hover {
-                    color: #777;
-                    text-decoration: none;
-                }
+                    footer {
+                        background-color: #2d2d30;
+                        color: #f5f5f5;
+                        padding: 32px;
+                    }
 
-        .form-control {
-            border-radius: 0;
-        }
+                        footer a {
+                            color: #f5f5f5;
+                        }
 
-        textarea {
-            resize: none;
-        }
+                            footer a:hover {
+                                color: #777;
+                                text-decoration: none;
+                            }
+
+                    .form-control {
+                        border-radius: 0;
+                    }
+
+                    textarea {
+                        resize: none;
+                    }
+                
+            
+        
+                
     </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -238,19 +358,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="images/title1b.png" alt="" width="100%" height="480">
+                <img src="images/title1b.png" alt="" width="100%" height="">
 
             </div>
 
             <div class="item">
-                <img src="images/title2b.png" alt="" width="100%" height="480">
+                <img src="images/title2b.png" alt="" width="100%" height="">
 
             </div>
 
             <div class="item">
 
 
-                <img src="images/title3b.png" alt="" width="100%" height="480">
+                <img src="images/title3b.png" alt="" width="100%" height="">
                 <!--<div class="carousel-caption">
                     <h3>LA</h3>
                     <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
@@ -273,9 +393,9 @@
     <div class="jumbotron" id="s1">
         <section>
             <div id="about" class="container text-center ">
-                <h2 style="padding-top:70px;color:white;font-weight:900;font-size:26pt;font-family:微軟正黑體">峰群國際包裝科技</h2>
+                <h2 style="padding-top:70px;color:white;font-weight:900;font-family:微軟正黑體">峰群國際包裝科技</h2>
                 <p style="color:white"><em>公司願景</em></p>
-                <p style="color:white;font-weight:900;font-size:16pt;font-family:微軟正黑體">隨著各項包裝技術的日新月異，峰群國際包裝科技有限公司在全體員工努力之下也不斷地追求革新及精進本身技術升級，更在製作產品上針對環境及環保概念運用不斷配合政策提升品質,達成食品安全包裝及環保標準,將配合政府生產力4.0方向提升公司產能,效能,創造揚名於國際首屈一指的包裝指標；同時結合各種不同領域的產業升級取得資訊上,服務上迅速，共同發展出最大的效益，也發揮「取之社會、用之社會」的精神回饋給需要的人們。並在環保議題上盡一份心力，達到永續發展的目標。</p>
+                <p id="text1"style="color:white;font-weight:900;font-family:微軟正黑體">隨著各項包裝技術的日新月異，峰群國際包裝科技有限公司在全體員工努力之下也不斷地追求革新及精進本身技術升級，更在製作產品上針對環境及環保概念運用不斷配合政策提升品質,達成食品安全包裝及環保標準,將配合政府生產力4.0方向提升公司產能,效能,創造揚名於國際首屈一指的包裝指標；同時結合各種不同領域的產業升級取得資訊上,服務上迅速，共同發展出最大的效益，也發揮「取之社會、用之社會」的精神回饋給需要的人們。並在環保議題上盡一份心力，達到永續發展的目標。</p>
                 <br>
                 <div class="row " style="margin-top:10px">
                     <div class="col-sm-3 hidden-xs">
@@ -322,9 +442,9 @@
         <!--<!-- Container (Product Section) -->
 
         <div id="product" class=" bg-1">
-            <br /> <br /><br />
+            <br /> 
             <div style="align-content:center">
-                <h1 style="padding-top:10px;color:#f5f5f5;text-align:center;font-weight:900;font-size:32pt;font-family:微軟正黑體">產品新資訊NEWS</h1>
+                <h1 style="padding-top:10px;color:#f5f5f5;text-align:center;font-weight:900;font-family:微軟正黑體">產品新資訊NEWS</h1>
                 <div class="iw_wrapper" style="height:inherit;width:inherit">
                     <ul class="iw_thumbs" style="margin-left:16%; margin-right:10%" id="iw_thumbs">
                         <li> <img src="images/gif/foodbag5x3.gif" data-img="images/gif/foodbag5x3.gif" alt="Thumb1" /><div><h2 style="margin-bottom:4px">食品袋1</h2><p style="word-spacing:4px">產品規格介紹</p></div> </li>

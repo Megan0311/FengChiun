@@ -190,12 +190,13 @@ ul.iw_thumbs li {
     }
 
     ul.iw_thumbs li img {
-        border: 5px solid white;
+        border: 3px solid white;
         cursor: pointer;
         position: relative;
         -moz-box-shadow: 1px 1px 1px #ddd;
         -webkit-box-shadow: 1px 1px 1px #ddd;
         box-shadow: 1px 1px 1px #ddd;
+        border-image-repeat:round;
     }
 
         ul.iw_thumbs li img:hover {
@@ -205,24 +206,24 @@ ul.iw_thumbs li {
         }
 
     ul.iw_thumbs li:nth-child(even) img {
-        height: 90px;
+        height: 100px;
         
     }
 
     ul.iw_thumbs li:nth-child(odd) img {
-        height: 65px;
+        height: 145px;
     }
 
     ul.iw_thumbs li:nth-child(5n) img {
-        height: 60px;
+        height: 190px;
     }
 
     ul.iw_thumbs li:nth-child(3n) img {
-        height: 130px;
+        height: 200px;
     }
 
     ul.iw_thumbs li:nth-child(8n) img {
-        height: 70px;
+        height: 180px;
     }
 
 .iw_ribbon {
